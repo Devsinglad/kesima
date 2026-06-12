@@ -1,0 +1,1 @@
+enum GameMode { twoPlayer, vsComputer }

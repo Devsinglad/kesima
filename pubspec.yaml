@@ -1,0 +1,26 @@
+name: kisima
+description: Kisima - A traditional Kenyan board game for mobile.
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  vibration: ^2.0.0
+  shared_preferences: ^2.3.0
+  flutter_balloons: ^1.0.0
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/cheer.mp3
